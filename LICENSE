@@ -21,9 +21,10 @@ Under the following terms:
 Full legal text: https://creativecommons.org/licenses/by/4.0/legalcode
 Human-readable summary: https://creativecommons.org/licenses/by/4.0/
 
-NOTE: The underlying raw electricity-demand and weather source data merged
-into this dataset may be subject to their own, separate license terms that
-have not been independently re-verified at time of publication. See the
-"Provenance and license" section of README.md. This CC BY 4.0 license
-applies to this repository's own contribution: the merge, the engineered
-feature columns, and this packaging/documentation.
+NOTE ON UNDERLYING SOURCE DATA: The raw electricity-demand and weather
+records merged into this dataset originate from "Daily electricity demand
+data for Indian states (2014-2024)" by Kieran Hunt and Hannah Bloomfield
+(Zenodo, https://doi.org/10.5281/zenodo.14983362), also licensed CC BY 4.0.
+Any use of this dataset must credit both that original source and this
+repository, per the attribution terms above. See the "Provenance and
+license" section of README.md for full details.

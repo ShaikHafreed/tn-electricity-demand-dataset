@@ -39,11 +39,11 @@ A daily, feature-engineered dataset of Tamil Nadu's electricity demand for 2023,
 
 ## Provenance and license
 
-- **Raw electricity demand**: Tamil Nadu daily electricity-met figures, originally sourced from a public electricity demand dataset. *(Note: the original source's exact license has not yet been independently re-verified for this republication — if you are the original data provider or know the source license, please open an issue so attribution/terms here can be corrected.)*
-- **Weather**: derived from public weather/climate reanalysis sources (temperature, dewpoint, solar radiation, cloud cover, rainfall, UTCI).
-- **Festival, agriculture-season, and all engineered features**: built by the author (Shaik Hafreed) for this project.
+- **Raw electricity demand and weather** (temperature, dewpoint, wind, solar radiation, cloud cover, UTCI): sourced from **"Daily electricity demand data for Indian states (2014–2024)"** by **Kieran Hunt and Hannah Bloomfield**, published on Zenodo: [zenodo.org/records/14983362](https://zenodo.org/records/14983362), licensed **CC BY 4.0**.
+- **Rainfall**: derived from public rainfall/climate sources for Tamil Nadu.
+- **Festival, agriculture-season, lag/rolling features, and all other engineered columns**: built by the author (Shaik Hafreed) for this project.
 
-This repository's own contribution (merging, feature engineering, and this packaging) is released under **CC BY 4.0** — see `LICENSE`. Because the underlying raw demand/weather series may carry their own terms, please treat this as research/educational use and verify original-source terms before any commercial use.
+Per the source license's attribution requirement: if you use this dataset, credit **Kieran Hunt and Hannah Bloomfield** for the original electricity demand and weather records, in addition to citing this repository for the merge and engineered features below. This repository's own contribution (merging, feature engineering, and this packaging) is released under **CC BY 4.0** — see `LICENSE`.
 
 ## Citation
 
@@ -52,6 +52,10 @@ If you use this dataset, please cite:
 ```
 Shaik Hafreed (2026). Tamil Nadu Electricity Demand Dataset (2023).
 GitHub: https://github.com/ShaikHafreed/tn-electricity-demand-dataset
+
+Original electricity demand and weather records:
+Hunt, K. and Bloomfield, H. Daily electricity demand data for Indian states (2014-2024).
+Zenodo. https://doi.org/10.5281/zenodo.14983362
 ```
 
 ## Built with
